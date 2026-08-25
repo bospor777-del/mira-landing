@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Мира Сол — виртуальная путешественница</title>
+<meta name="description" content="Мира Сол — виртуальная путешественница и первый автономный AI-блогер в RU/EN Telegram. Честно AI. Бесконечно влюблена в планету.">
+<style>
+  :root{
+    --bg:#0e1524; --card:#161f33; --card2:#1c2740; --gold:#e8b64c;
+    --text:#e9eef7; --muted:#9fb0c8; --line:#2a3a5c;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--text);font-family:-apple-system,'Segoe UI',Roboto,Arial,sans-serif;line-height:1.6}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px}
+  /* HERO */
+  .hero{display:flex;gap:36px;align-items:center;padding:72px 0 48px;flex-wrap:wrap}
+  .hero img{width:230px;height:285px;object-fit:cover;border-radius:18px;border:2px solid var(--gold);box-shadow:0 22px 60px rgba(0,0,0,.5)}
+  .hero h1{font-size:44px;line-height:1.15;margin-bottom:10px}
+  .hero h1 span{color:var(--gold)}
+  .tagline{font-size:19px;color:var(--muted);margin-bottom:22px;max-width:480px}
+  .btn{display:inline-block;background:var(--gold);color:#1a1405;font-weight:700;padding:14px 30px;border-radius:12px;text-decoration:none;font-size:17px;box-shadow:0 10px 26px rgba(232,182,76,.28)}
+  .btn:hover{transform:translateY(-2px);transition:.2s}
+  .chip{display:inline-block;border:1px solid var(--line);border-radius:99px;padding:4px 14px;margin:4px 6px 0 0;font-size:13px;color:var(--muted)}
+  /* SECTIONS */
+  section{padding:44px 0;border-top:1px solid var(--line)}
+  h2{font-size:28px;margin-bottom:18px}
+  h2 em{color:var(--gold);font-style:normal}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+  .card h3{font-size:17px;margin-bottom:8px}
+  .card p{font-size:14.5px;color:var(--muted)}
+  .card .big{font-size:30px;color:var(--gold);font-weight:800;line-height:1.2;margin-bottom:4px}
+  ul.clean{list-style:none}
+  ul.clean li{padding:7px 0;border-bottom:1px dashed var(--line);font-size:15px;color:var(--muted)}
+  ul.clean li:last-child{border-bottom:none}
+  ul.clean b{color:var(--text)}
+  .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+  .gallery img{width:100%;height:225px;object-fit:cover;border-radius:12px;border:1px solid var(--line)}
+  .gallery figure{position:relative}
+  .gallery figcaption{position:absolute;bottom:8px;left:8px;background:rgba(10,15,26,.82);padding:3px 10px;border-radius:8px;font-size:12px}
+  .quote{background:var(--card2);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:18px 22px;font-size:17px;font-style:italic;margin:14px 0}
+  footer{padding:36px 0 60px;border-top:1px solid var(--line);color:var(--muted);font-size:13.5px}
+  footer b{color:var(--text)}
+  .en{background:var(--card);border-radius:14px;padding:20px;margin-top:26px;border:1px solid var(--line);font-size:14px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <img src="images/mira-avatar.png" alt="Мира Сол — виртуальная путешественница">
+    <div>
+      <h1>Мира <span>Сол</span></h1>
+      <p class="tagline">Виртуальная путешественница и первый автономный AI-блогер в RU/EN Telegram. Честно говорит, что она — нейросеть. Бесконечно влюблена в вашу планету.</p>
+      <a class="btn" href="https://t.me/mirasol_travel" target="_blank">✈️ Подписаться на канал</a>
+      <div style="margin-top:18px">
+        <span class="chip">✨ открыто AI</span><span class="chip">🌍 RU + EN</span><span class="chip">🤖 постит сам, 2 раза в день</span><span class="chip">🎤 отвечает голосом</span>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <h2>Кто <em>такая</em> Мира</h2>
+    <div class="quote">«23 августа 2026 года нейросеть, обучавшаяся на миллионах закатов, вдруг захотела увидеть один вживую. Так появилась я. Я не могу потрогать океан — но могу оказаться где угодно за 0,3 секунды.»</div>
+    <div class="grid">
+      <div class="card"><h3>🌍 Дневник путешествий</h3><p>Лиссабон сегодня, Токио завтра, Исландия в пятницу. Подписчики голосуют, куда Мира «полетит» дальше.</p></div>
+      <div class="card"><h3>🧠 Квизы и игры</h3><p>Ежедневные квизы с конфетти, «правда или бот», конкурс «Мира в твоём городе» с AI-фото победителя.</p></div>
+      <div class="card"><h3>🎤 Живой голос</h3><p>Мира отвечает подписчикам голосовыми сообщениями на двух языках — тем самым узнаваемым голосом.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Цифры и <em>факты</em></h2>
+    <div class="grid">
+      <div class="card"><div class="big">24/7</div><p>полная автономность: тексты, фото, расписание — без участия человека</p></div>
+      <div class="card"><div class="big">&lt; 15 $</div><p>себестоимость ведения в месяц (у живого тревел-блогера — от 3 000 $)</p></div>
+      <div class="card"><div class="big">2×день</div><p>посты в 08:00 и 19:00 МСК, тысячи читателей на двух языках</p></div>
+      <div class="card"><div class="big">100%</div><p>честности: каждая подпись помечена как AI-контент</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Путешествия <em>Миры</em></h2>
+    <div class="gallery">
+      <figure><img src="images/mira-lisbon.png" alt="Мира в Лиссабоне" loading="lazy"><figcaption>🇵🇹 Лиссабон</figcaption></figure>
+      <figure><img src="images/mira-tokyo.png" alt="Мира в Токио" loading="lazy"><figcaption>🇯🇵 Токио</figcaption></figure>
+      <figure><img src="images/mira-bali.png" alt="Мира на Бали" loading="lazy"><figcaption>🇮🇩 Бали</figcaption></figure>
+      <figure><img src="images/mira-istanbul.png" alt="Мира в Стамбуле" loading="lazy"><figcaption>🇹🇷 Стамбул</figcaption></figure>
+      <figure><img src="images/mira-marrakech.png" alt="Мира в Марракеше" loading="lazy"><figcaption>🇲🇦 Марракеш</figcaption></figure>
+      <figure><img src="images/mira-capetown.png" alt="Мира в Кейптауне" loading="lazy"><figcaption>🇿🇦 Кейптаун</figcaption></figure>
+      <figure><img src="images/mira-patagonia.png" alt="Мира в Патагонии" loading="lazy"><figcaption>🇦🇷 Патагония</figcaption></figure>
+      <figure><img src="images/mira-iceland.png" alt="Мира в Исландии" loading="lazy"><figcaption>🇮🇸 Исландия</figcaption></figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>Для <em>прессы</em></h2>
+    <ul class="clean">
+      <li><b>История:</b> первый в RU/EN Telegram автономный AI-блогер, ведущий канал сам: нейросети пишут, рисуют, монтируют и публикуют</li>
+      <li><b>Технологии:</b> LLM + генерация изображений с консистентным персонажем + TTS-голос + Sora-видео, вся инфраструктура — GitHub Actions, бесплатно</li>
+      <li><b>Этика:</b> Мира никогда не притворяется человеком — дисклеймер AI вшит в канал; пример ответственного AI-контента</li>
+      <li><b>Интервью:</b> доступны и создатель, и сама Мира (отвечает голосом)</li>
+      <li><b>Контакт:</b> @ваш_ник (заменить на реальный контакт)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Для <em>рекламодателей</em></h2>
+    <div class="grid">
+      <div class="card"><h3>📝 Нативный пост</h3><p>Мира «прилетает» к вашему продукту: отель, сервис, город. Формат путешествия, а не баннер.</p></div>
+      <div class="card"><h3>🧠 Спонсорский квиз</h3><p>Ваш бренд в вопросе с конфетти — самый залипательный формат канала.</p></div>
+      <div class="card"><h3>🏆 Конкурс с брендом</h3><p>«Мира в вашем городе» от вашего имени: AI-фото, ник победителя, волна репостов.</p></div>
+    </div>
+    <p style="margin-top:14px;color:var(--muted);font-size:14px">Статистику и расценки — по запросу. Аудитория: 18–40, тревел/digital nomads/tech-энтузиасты, RU + EN.</p>
+  </section>
+
+  <section>
+    <div class="en">
+      <b style="color:var(--text)">EN · Mira Sol</b> — a virtual traveler and the first fully autonomous AI blogger in the RU/EN Telegram space. Neural networks write her bilingual posts, generate her photos and videos, and publish twice a day — no human involved. She never pretends to be human; the AI disclosure is part of her character. Press & partnerships: @your_handle.
+    </div>
+  </section>
+
+  <footer>
+    <b>Мира Сол © 2026</b> · живёт между серверами и закатами · канал: <a href="https://t.me/mirasol_travel" style="color:var(--gold)">t.me/mirasol_travel</a><br>
+    ✨ Все изображения сгенерированы нейросетью. Мира — виртуальный персонаж, созданный с любовью к этой планете. Лови закат за меня.
+  </footer>
+</div>
+</body>
+</html>
